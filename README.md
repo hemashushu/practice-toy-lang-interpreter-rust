@@ -19,9 +19,15 @@
 
 练习单纯使用 Rust lang 编写简单的 _玩具语言_ 解析器。
 
-> 注：本项目是阅读和学习《Writing An Interpreter In Go》时的随手练习，并无实际用途。程序的原理、讲解和代码的原始出处请移步 https://interpreterbook.com/
+> 注：本项目是学习 Rust 随手练习，并无实际用途。
 
-（原书使用 Go lang 实现，在这个项目里我尝试使用 Rust lang 实现）
+解析器的原理、讲解和代码可以参考：
+
+- 《Writing An Interpreter In Go》 https://interpreterbook.com/
+- 《Writing A Compiler In Go》 https://compilerbook.com/
+- 《Crafting Interpreters》 https://craftinginterpreters.com/
+- 《Building a Parser from scratch》 http://dmitrysoshnikov.com/courses/parser-from-scratch/
+- 《Building an Interpreter from scratch》 http://dmitrysoshnikov.com/courses/essentials-of-interpretation/
 
 ## 使用方法
 

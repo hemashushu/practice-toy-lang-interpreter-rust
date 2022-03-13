@@ -6,6 +6,8 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-pub mod error;
-pub mod token;
-pub mod lexer;
+#[derive(Debug)]
+pub enum Error {
+    LexerError(&'static str),
+    ParserError(&'static str),
+}
