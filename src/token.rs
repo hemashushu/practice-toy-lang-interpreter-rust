@@ -33,6 +33,10 @@ pub enum TokenType {
     Regexp(String),
 
     // 符号
+    //
+    // 符号名称参考
+    // https://en.wikipedia.org/wiki/List_of_typographical_symbols_and_punctuation_marks
+
     LeftBrace,  // {
     RightBrace, // }
 
